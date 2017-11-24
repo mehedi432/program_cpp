@@ -1,5 +1,5 @@
 /*
-   The sum of two Integer.
+   The sum && average of three Integer.
    1.Start.
    2.Take three input.
    3.Make sum of three number.
@@ -11,7 +11,6 @@
 using namespace std;
 //This function will produce the Average of number's.
 //This function that Takes Something,Returns Nothing.
-
 void average(int, int, int); //Globar Declaration.
 int main()
 {
@@ -24,7 +23,7 @@ int main()
 
 }
 void average(int num1, int num2, int num3){ //Function Defination.
-        int average;
+        float average;
         average = (num1+num2+num3)/ 3;
         cout << "Average is = " << average;
 }
