@@ -23,7 +23,8 @@ int main()
 
 }
 void average(int num1, int num2, int num3){ //Function Defination.
-        float average;
-        average = (num1+num2+num3)/ 3;
+        float average, sum;
+        sum = num1+num2+num3;
+        average = sum/3;
         cout << "Average is = " << average;
 }
