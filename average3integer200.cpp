@@ -15,14 +15,15 @@ void average(int, int, int); //Globar Declaration.
 int main()
 {
         //void average(int, int, int); --> Local Declaration.
-
         int num1, num2, num3;
         cout <<"Enter three number to find Average :" <<endl;
         cin >> num1 >> num2 >> num3;
         average(num1, num2, num3); //Function call with actual argument && call by value.
 
 }
-void average(int num1, int num2, int num3){ //Function Defination.
+
+//Function Defination.
+void average(int num1, int num2, int num3){ 
         float average, sum;
         sum = num1+num2+num3;
         average = sum/3;
