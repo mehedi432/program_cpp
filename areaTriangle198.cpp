@@ -6,6 +6,7 @@
    3. Apply 1/2*Base*height formula to Calculate.
    4.Show output.
  */
+ 
 #include <iostream>
 using namespace std;
 //Function Defination.
@@ -18,6 +19,7 @@ int totalArea(){
         //tArea = 0.5* base* height;
         return (0.5* base* height);
 }
+
 int main()
 {
         float area;
