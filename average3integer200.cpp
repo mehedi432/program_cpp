@@ -10,7 +10,7 @@
  #include <iostream>
 using namespace std;
 //This function will produce the Average of number's.
-//This function that Takes Something,Returns Nothing.
+//The function that Takes Something,Returns Nothing.
 void average(int, int, int); //Globar Declaration.
 int main()
 {
