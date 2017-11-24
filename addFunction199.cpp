@@ -8,10 +8,10 @@
  */
 #include <iostream>
 using namespace std;
+//We need not prototype if we declare our function if we write our function before main.
 //This function will produce the sum of number's.
-//This function is a Example of Takes Nothing Returns Nothing.
-//This part is Function Defination.
-void sum(){
+//This function that Takes Nothing Returns Nothing.
+void sum(){ //This part is Function Defination.
         int input_1,input_2,result;
         cout << "Enter A number :"<<endl;
         cin >> input_1;
