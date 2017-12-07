@@ -26,6 +26,5 @@ int main()
         cout << "Enter Limit number :";
         cin >> number;
         display(number);
-        //cout <<""
 
 }
