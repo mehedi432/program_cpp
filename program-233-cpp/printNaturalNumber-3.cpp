@@ -15,7 +15,7 @@ using namespace std;
 
 int display(int number)
 {
-        for(int i = 1; i <number; i++) {
+        for(int i = 1; i <= number; i++) {
                 cout << "Natural number's are : " << i <<endl;
         }
 }
