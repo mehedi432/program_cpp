@@ -15,7 +15,7 @@
 
 #include <iostream>
 using namespace std;
-float add(int howManyterm){
+float addSquare(int howManyterm){
         float sum = 0;
         for(int i = 1; i<= howManyterm; i++) {
                 sum = sum + i*i; //This i*i returns the sqare of that iteation number for the Loop.
@@ -28,7 +28,7 @@ int main()
         int howManyterm,display;
         cout << "Enter how many terms you want to add the square value 1^2+2^2+3^2+........ :"<<endl;
         cin >> howManyterm;
-        display=add(howManyterm);
+        display=addSquare(howManyterm);
         cout << "The result is :" <<display;
 
 }
